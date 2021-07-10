@@ -62,6 +62,7 @@ img:hover {
     margin: 0 auto;
     background-color: white;
     width: 100%;
+    min-width: 350px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -89,6 +90,16 @@ img:hover {
     height: 60%;
     border-radius: 6px;
     object-fit: contain;
+    }
+
+    .gallery{
+        padding: 20px 5px;
+    }
+
+    .container {
+    max-width: 95vw;
+    margin: 0 auto;
+    padding: 5px;
 }
 }
 </style>
