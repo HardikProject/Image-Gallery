@@ -82,4 +82,11 @@ img:hover {
     box-shadow: none;
     transform: none;
 }
+
+@media screen and (max-width:840px){
+    .popUp img{
+    width: 95vw;
+    height: 50%;
+}
+}
 </style>
